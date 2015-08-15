@@ -12,14 +12,8 @@
     }
   ],
   "autoload": {
-    "classmap": [
-      "font/",
-      "filters/",
-      "fpdi.php",
-      "tfpdf.php",
-      "fpdf_tpl.php",
-      "fpdi_pdf_parser.php",
-      "pdf_context.php"
-    ]
+    "psr-4": {
+      "fpdi\\": "/"
+    }
   }
 }

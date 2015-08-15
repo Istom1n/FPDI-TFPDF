@@ -17,6 +17,8 @@
 //  limitations under the License.
 //
 
+namespace fpdi;
+
 if (!class_exists('FPDF_TPL')) {
     require_once('fpdf_tpl.php');
 }
