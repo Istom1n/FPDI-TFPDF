@@ -1,0 +1,25 @@
+{
+  "name": "istom1n/FPDI-TFPDF",
+  "version": "1.0",
+  "description": "PHP package of TFPDF with FPDI.",
+  "type": "library",
+  "keywords": ["pdf", "fpdi", "fpdf", "tfpdf"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Ivan Istomin",
+      "email": "ivan@istomin.im",
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "font/",
+      "filters/",
+      "fpdi.php",
+      "tfpdf.php",
+      "fpdf_tpl.php",
+      "fpdi_pdf_parser.php",
+      "pdf_context.php"
+    ]
+  }
+}
