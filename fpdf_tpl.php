@@ -17,14 +17,12 @@
 //  limitations under the License.
 //
 
-if (!class_exists('fpdi_bridge')) {
-    require_once('fpdi_bridge.php');
-}
+require_once('fpdf.php');
 
 /**
  * Class FPDF_TPL
  */
-class FPDF_TPL extends fpdi_bridge
+class FPDF_TPL extends FPDF
 {
     /**
      * Array of template data
