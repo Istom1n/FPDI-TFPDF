@@ -16,13 +16,12 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //
-
-require_once('fpdf.php');
+namespace fpdi;
 
 /**
  * Class FPDF_TPL
  */
-class FPDF_TPL extends FPDF
+class FPDF_TPL extends tFPDF
 {
     /**
      * Array of template data
@@ -86,7 +85,7 @@ class FPDF_TPL extends FPDF
      * @throws LogicException
      */
 
-    namespace fpdi;
+
 
     public function beginTemplate($x = null, $y = null, $w = null, $h = null)
     {

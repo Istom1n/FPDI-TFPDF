@@ -1,5 +1,7 @@
 <?php
-require_once('tfpdf.php');
+
+namespace fpdi;
+
 class FPDF extends tFPDF
 {
     /**

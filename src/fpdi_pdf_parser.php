@@ -17,13 +17,11 @@
 //  limitations under the License.
 //
 namespace fpdi;
-if (!class_exists('pdf_parser')) {
-    require_once('pdf_parser.php');
-}
 
 /**
  * Class fpdi_pdf_parser
  */
+
 class fpdi_pdf_parser extends pdf_parser
 {
     /**

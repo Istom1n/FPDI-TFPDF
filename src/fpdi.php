@@ -19,10 +19,6 @@
 
 namespace fpdi;
 
-if (!class_exists('FPDF_TPL')) {
-    require_once('fpdf_tpl.php');
-}
-
 /**
  * Class FPDI
  */
@@ -90,7 +86,7 @@ class FPDI extends FPDF_TPL
      * @var array
      */
     protected $_importedPages = array();
-    
+
     /**
      * Set a source-file.
      *
@@ -200,7 +196,7 @@ class FPDI extends FPDF_TPL
         if (!in_array($boxName, $parser->availableBoxes)) {
             throw new InvalidArgumentException(sprintf('Unknown box: %s', $boxName));
         }
-            
+
         $pageBoxes = $parser->getPageBoxes($pageNo, $this->k);
         
         /**
