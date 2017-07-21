@@ -1,6 +1,6 @@
 {
   "name": "istom1n/fpdi-tfpdf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PHP package of TFPDF with FPDI. PSR-4 compliant.",
   "type": "library",
   "keywords": ["pdf", "fpdi", "fpdf", "tfpdf"],
